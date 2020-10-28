@@ -3,7 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Apple Navigation Bar</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+
+  <body>
+    <nav>
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-apple"></i></a>
+          </li>
+          <li><a href="#" class="menu__item">Mac</a></li>
+          <li><a href="#" class="menu__item">iPad</a></li>
+          <li><a href="#" class="menu__item">iPhone</a></li>
+          <li><a href="#" class="menu__item">Watch</a></li>
+          <li><a href="#" class="menu__item">TV</a></li>
+          <li><a href="#" class="menu__item">Music</a></li>
+          <li><a href="#" class="menu__item">Support</a></li>
+          <li>
+            <a href="#" id="search"><i class="fa fa-search"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+          </li>
+        </ul>
+
+        <div class="search__form">
+          <form action="">
+            <input type="text" name="search" placeholder="Search Apple.com" />
+          </form>
+        </div>
+        <a class="close"><i class="fa fa-times"></i></a>
+      </div>
+    </nav>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
