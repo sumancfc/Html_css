@@ -7,10 +7,10 @@
 }
 
 body {
-  background: linear-gradient(to right, #00aaff, #00ff6c);
-  font-weight: normal;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #00ff6c, #00aaff);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .grid__calculator {
@@ -24,7 +24,8 @@ body {
 
 .grid__calculator > button {
   cursor: pointer;
-  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
   border: 1px solid #fff;
   outline: none;
   background-color: rgba(255, 255, 255, 0.75);
