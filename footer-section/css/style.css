@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css?family=Marck+Script|Poppins:300,400,500,600,700|Roboto+Mono:400,500,700|Roboto+Slab:300,400,700|Roboto:300,400,500,700,900");
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #ffffff;
+  line-height: 24px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #010225;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #373737;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #737373;
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a,
+button {
+  color: inherit;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  color: #373737;
+}
+
+a,
+button,
+img,
+input,
+span {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+a:focus {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ff5151;
+}
+
+button,
+input[type="submit"] {
+  cursor: pointer;
+}
+
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Input Placeholder */
+input:-moz-placeholder {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+input::-webkit-input-placeholder {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+input::-moz-placeholder {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+input:-ms-input-placeholder {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+input {
+  background: #eceff8;
+  border: 2px solid #eceff8;
+  height: 45px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding-left: 10px;
+  font-size: 14px;
+  color: #737373;
+  width: 100%;
+}
+
+input:focus {
+  background: transparent;
+}
+
+button,
+input {
+  font-family: "Roboto", sans-serif;
+}
+
+.ptb-85 {
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.ptb-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mt-45 {
+  margin-top: 45px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.bg-gray {
+  background-color: #f8f8f8;
+}
+
+.bg-gray-1 {
+  background-color: #ebebeb;
+}
+
+.footer__area-widget .footer__area-social {
+  margin-top: 21px;
+}
+
+.footer__area-widget .footer__area-social span {
+  font-size: 16px;
+  color: #737373;
+}
+
+.footer__area-widget .footer__area-social ul {
+  margin-top: 23px;
+}
+
+.footer__area-widget .footer__area-social ul li {
+  display: inline-block;
+  margin-right: 23px;
+}
+
+.footer__area-widget .footer__area-social ul li:last-child {
+  margin-right: 0;
+}
+
+.footer__area-widget .footer__area-social ul li a {
+  font-size: 16px;
+  color: #9d9d9d;
+}
+
+.footer__area-widget .footer__area-social ul li a:hover {
+  color: #ff5151;
+}
+
+.footer__area-widget .footer__area-title {
+  margin: 0 0 30px;
+}
+
+.footer__area-widget .footer__area-title h3 {
+  font-size: 16px;
+  color: #373737;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+}
+
+.footer__area-widget .footer__area-list ul li {
+  margin: 0 0 10px;
+}
+
+.footer__area-widget .footer__area-list ul li:last-child {
+  margin-right: 0;
+}
+
+.footer__area-widget .footer__area-list ul li a {
+  color: #737373;
+  font-size: 16px;
+}
+
+.footer__area-widget .footer__area-list ul li a:hover {
+  color: #ff5151;
+}
+
+.footer__area-widget .footer__area-subscribe > p {
+  color: #373737;
+  font-size: 16px;
+  margin: 0;
+}
+
+.footer__area-widget
+  .footer__area-subscribe
+  .footer__area-subscribe__form
+  .footer__area-form {
+  position: relative;
+}
+
+.footer__area-widget
+  .footer__area-subscribe
+  .footer__area-subscribe__form
+  .footer__area-form
+  input {
+  font-size: 14px;
+  color: #737373;
+  letter-spacing: 0.02px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 2px 60px 2px 0;
+}
+
+.footer__area-widget
+  .footer__area-subscribe
+  .footer__area-subscribe__form
+  .footer__area-form
+  input::-webkit-input-placeholder {
+  color: #737373;
+  opacity: 1;
+}
+
+.footer__area-widget
+  .footer__area-subscribe
+  .footer__area-subscribe__form
+  .footer__area-form
+  .footer__area-news {
+  display: none;
+}
+
+.footer__area-widget
+  .footer__area-subscribe
+  .footer__area-subscribe__form
+  .footer__area-form
+  .footer__clear {
+  display: inline-block;
+  position: absolute;
+  right: 2px;
+  top: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 50px;
+  border: none;
+  padding: 0;
+  z-index: 99;
+  background: rgba(0, 0, 0, 0) url("./../img/footer-search.png") no-repeat
+    scroll right 18px center;
+}
+
+.footer__area-widget
+  .footer__area-subscribe
+  .footer__area-subscribe__form
+  .footer__area-form
+  .footer__clear
+  input {
+  width: 50px;
+  cursor: pointer;
+  z-index: -1;
+}
+
+.footer__area-widget
+  .footer__area-subscribe
+  .footer__area-subscribe__form
+  .footer__area-form
+  .footer__clear:hover {
+  background: rgba(0, 0, 0, 0) url("./../img/footer-search-hover.png") no-repeat
+    scroll right 18px center;
+}
+
+.copyright p {
+  letter-spacing: 13px;
+  letter-spacing: 1px;
+}
+
+.copyright p a {
+  color: #737373;
+}
+
+.copyright p a:hover {
+  color: #ff5151;
+}
+
+/* Media Query */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .footer__area-widget
+    .footer__area-subscribe
+    .footer__area-subscribe__form
+    .footer__area-form
+    input {
+    padding: 2px 40px 2px 0;
+  }
+
+  .footer__area-widget
+    .footer__area-subscribe
+    .footer__area-subscribe__form
+    .footer__area-form
+    .footer__clear {
+    background: rgba(0, 0, 0, 0) url("./../img/footer-search.png") no-repeat
+      scroll right 0px center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer__area-widget .footer__area-title {
+    margin: 0 0 18px;
+  }
+  .footer__area-top.pb-85 {
+    padding-bottom: 20px;
+  }
+
+  .footer__area-widget .footer__area-subscribe.mt-45 {
+    margin-top: 18px;
+  }
+}
